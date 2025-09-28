@@ -1,0 +1,40 @@
+<!-- templates/store/cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container py-5">
+        <h2>Your Cart</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Stylish Jacket</td>
+                    <td><input type="number" value="2" class="form-control" min="1"></td>
+                    <td>$99.99</td>
+                    <td>$199.98</td>
+                    <td><button class="btn btn-danger">Remove</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Total Price: $199.98</h3>
+        <button class="btn btn-success">Proceed to Checkout</button>
+    </div>
+</body>
+
+</html>
